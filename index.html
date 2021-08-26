@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+      fetch('https://api.twitter.com/2/tweets/20')
+        .then(response => response.json())
+        .then(data => console.log(data));
+    </script>
 </head>
 <body>
+
 
 </body>
 </html>
